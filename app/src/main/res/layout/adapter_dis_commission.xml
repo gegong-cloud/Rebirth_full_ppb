@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+
+    >
+
+
+    <TextView
+        android:id="@+id/dis_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/money_number"
+        android:singleLine="true"
+        android:textSize="@dimen/sp_16"
+        android:textColor="@color/font_666666"
+        android:gravity="center|left"
+        android:text="155**2018"
+        android:layout_marginLeft="14dp"
+        />
+
+    <TextView
+        android:id="@+id/dis_time"
+        android:layout_toRightOf="@+id/dis_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/money_number"
+        android:singleLine="true"
+        android:textSize="@dimen/sp_16"
+        android:textColor="@color/font_666666"
+        android:gravity="center|left"
+        android:text="12/22"
+        android:layout_marginLeft="20dp"
+        />
+
+
+    <TextView
+        android:id="@+id/dis_level"
+        android:layout_toRightOf="@+id/dis_time"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/money_number"
+        android:singleLine="true"
+        android:textSize="@dimen/sp_16"
+        android:textColor="@color/font_666666"
+        android:gravity="center|left"
+        android:text="1级分销提成"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/dis_money"
+        android:layout_toRightOf="@+id/dis_level"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/money_number"
+        android:singleLine="true"
+        android:textSize="@dimen/sp_16"
+        android:textColor="@color/radius_fc4288"
+        android:gravity="center|left"
+        android:text="15元"
+        android:layout_marginLeft="20dp"
+        />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:background="@color/line_dddddd" />
+</RelativeLayout>

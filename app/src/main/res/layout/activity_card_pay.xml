@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <com.yanzhenjie.sofia.StatusView
+        android:id="@+id/status_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FB2F58" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/vip_bg"
+        app:contentInsetStart="0dp"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleMarginStart="20dp">
+
+        <RelativeLayout
+            android:id="@+id/toolbar_back"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left">
+
+            <ImageView
+                android:id="@+id/toolbar_back_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/white_back" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/toolbar_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/balck"
+            android:textSize="@dimen/sp_16"
+            android:visibility="gone"
+             />
+
+        <ImageView
+            android:id="@+id/toolbar_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="卡密充值"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_18" />
+
+
+    </android.support.v7.widget.Toolbar>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="@color/bg_f0eff5"
+        android:paddingLeft="20dp"
+        android:textSize="@dimen/sp_12"
+        android:textColor="@color/font_999999"
+        android:gravity="center|left"
+        android:text="输入充值卡密"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/font_333333"
+            android:textSize="@dimen/sp_16"
+            android:text="充值卡密"
+            android:gravity="center|left"
+            />
+
+        <EditText
+            android:id="@+id/reg_pwd_old"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="97dp"
+            android:layout_marginRight="15dp"
+            android:background="@android:color/transparent"
+            android:gravity="center|left"
+            android:hint="请输入或粘贴充值卡密"
+            android:textColor="@color/font_333333"
+            android:textColorHint="@color/font_cccccc"
+            android:textSize="@dimen/sp_16" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/line_dddddd" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/reg_paste"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="@dimen/sp_18"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="粘贴卡密"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/radius_fc4288_7"
+        />
+    <TextView
+        android:id="@+id/reg_reg"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="@dimen/sp_18"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="立即充值"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/radius_fc4288_7"
+        />
+</LinearLayout>

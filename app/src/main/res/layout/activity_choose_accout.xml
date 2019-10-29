@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_f0eff5"
+    android:orientation="vertical">
+
+    <com.yanzhenjie.sofia.StatusView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" />
+
+    <include layout="@layout/include_title" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_dddddd" />
+
+    <RelativeLayout
+        android:visibility="invisible"
+        android:id="@+id/alipay_choose"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        >
+        <ImageView
+            android:id="@+id/alipay_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pay_logo"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:id="@+id/alipay_name"
+            android:layout_toRightOf="@+id/alipay_logo"
+            android:layout_alignTop="@+id/alipay_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_16"
+            android:textColor="@color/font_333333"
+            android:layout_marginTop="-2dp"
+            android:text="支付宝"
+            android:layout_marginLeft="8dp"
+            />
+
+        <TextView
+
+            android:id="@+id/alipay_number"
+            android:layout_toRightOf="@+id/alipay_logo"
+            android:layout_alignBottom="@+id/alipay_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_12"
+            android:textColor="@color/font_999999"
+            android:text="尾号4685"
+            android:layout_marginLeft="8dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:visibility="invisible"
+        android:id="@+id/bank_choose"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        >
+        <ImageView
+            android:id="@+id/bank_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bank_logo"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:id="@+id/bank_name"
+            android:layout_toRightOf="@+id/bank_logo"
+            android:layout_alignTop="@+id/bank_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_16"
+            android:textColor="@color/font_333333"
+            android:layout_marginTop="-2dp"
+            android:text="建设银行"
+            android:layout_marginLeft="8dp"
+            />
+
+        <TextView
+            android:id="@+id/bank_number"
+            android:layout_toRightOf="@+id/bank_logo"
+            android:layout_alignBottom="@+id/bank_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_12"
+            android:textColor="@color/font_999999"
+            android:text="尾号4685"
+            android:layout_marginLeft="8dp"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/account_add"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/radius_fc4288_7"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_18"
+        android:text="添加账号"
+        android:gravity="center"
+        />
+</LinearLayout>
+

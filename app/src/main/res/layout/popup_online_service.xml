@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_bg"
+    android:layout_width="290dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/radius_ffffff_8"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@drawable/radius_fc4288_top_8"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="@dimen/sp_16"
+            android:textColor="@color/white"
+            android:text="24小时在线客服"
+            />
+        <ImageView
+            android:id="@+id/online_close"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/white_close"
+            android:scaleType="centerInside"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/qrcode_img"
+        android:layout_width="101dp"
+        android:layout_height="101dp"
+        android:src="@drawable/default_qrcode"
+        android:layout_marginTop="12dp"
+        />
+
+    <TextView
+        android:id="@+id/qrcode_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_16"
+        android:textColor="@color/font_333333"
+        android:text="zsqw9465846"
+        android:layout_marginTop="4dp"
+        />
+
+    <TextView
+        android:id="@+id/qrcode_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_16"
+        android:textColor="@color/font_333333"
+        android:text="zsqw9465846"
+        android:layout_marginTop="4dp"
+        />
+
+    <TextView
+        android:id="@+id/online_context"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_12"
+        android:textColor="@color/font_999999"
+        android:text="点击按钮后, 系统会帮您复制代理的微信号或QQ号, 3秒后自动跳转至微信或QQ, 添加好友时长按屏幕粘贴即可加完好友10秒内帮您完成充值。"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center|left"
+        android:lineSpacingExtra="2dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/save_qrcode"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/radius_fc4288_7"
+            android:textSize="@dimen/sp_14"
+            android:textColor="@color/white"
+            android:text="保存二维码"
+            android:gravity="center"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            />
+        <TextView
+            android:id="@+id/copy_accout_open"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/radius_fc4288_7"
+            android:textSize="@dimen/sp_14"
+            android:textColor="@color/white"
+            android:text="复制微信号并打开微信"
+            android:gravity="center"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:layout_marginLeft="15dp"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+</LinearLayout>

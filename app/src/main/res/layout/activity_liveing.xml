@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:keepScreenOn="true">
+
+    <com.google.android.mvp.ui.widget.player.CustomerVideo
+        android:id="@+id/video_player"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/play_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        />
+
+    <LinearLayout
+        android:id="@+id/live_anchor_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/shape_black_tran40_circle"
+        android:gravity="center_vertical"
+        android:padding="2dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_cover"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="6dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_12"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/mine_new_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_14"
+        android:textColor="@color/white"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/guandanmu_di"
+        android:gravity="center"
+        android:layout_alignTop="@+id/live_anchor_info"
+        android:layout_marginRight="8dp"
+        android:text="旋转屏幕"
+        />
+    <TextView
+        android:id="@+id/tip_second"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_14"
+        android:textColor="@color/white"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/radius_fc4288_15"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:gravity="center"
+        android:layout_alignTop="@+id/live_anchor_info"
+        android:layout_marginRight="8dp"
+        android:text="试看30秒"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rv_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/iv_report"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/jubao" />
+
+        <TextView
+            android:id="@+id/tv_close_sys_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/guandanmu_di"
+            android:gravity="center"
+            android:text="关字幕"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_16" />
+
+        <ImageView
+            android:id="@+id/iv_finish"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/guanbi" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_sys_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/rv_bottom"
+        android:lineSpacingExtra="4dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="120dp"
+        android:text="系统提示："
+        android:textColor="#db6ddd"
+        android:textSize="@dimen/sp_16" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_centerInParent="true"
+        layout="@layout/include_play_tip"
+        />
+
+</RelativeLayout>

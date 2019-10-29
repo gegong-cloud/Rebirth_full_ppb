@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+         />
+    <Button
+        android:visibility="invisible"
+        android:gravity="center"
+        android:textSize="@dimen/sp_18"
+        android:textColor="#fff"
+        android:id="@+id/sp_jump_btn"
+        android:background="@drawable/btn_splash_shape"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="15"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"/>
+</RelativeLayout>

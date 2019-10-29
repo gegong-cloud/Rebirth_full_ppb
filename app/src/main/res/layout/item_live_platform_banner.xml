@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <com.zhouwei.mzbanner.MZBannerView
+        android:id="@+id/home_banner"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="10dp"
+        app:canLoop="true"
+        app:indicatorAlign="center"
+        app:indicatorPaddingBottom="50dp"
+        app:indicatorPaddingLeft="10dp"
+        app:middle_page_cover="true"
+        app:open_mz_mode="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/live_jigou" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:text="直播机构"
+            android:textColor="@color/font_666666"
+            android:textSize="@dimen/sp_14" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="14dp"
+            android:layout_marginLeft="4dp"
+            android:text="持续增加"
+            android:gravity="center"
+            android:textColor="@color/font_fc488c"
+            android:background="@drawable/radius_fb478b_5"
+            android:textSize="@dimen/sp_10" />
+
+        <TextView
+            android:id="@+id/live_jg_number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=""
+            android:gravity="center|right"
+            android:textColor="@color/font_999999"
+            android:paddingRight="13dp"
+            android:textSize="@dimen/sp_12" />
+    </LinearLayout>
+
+</LinearLayout>

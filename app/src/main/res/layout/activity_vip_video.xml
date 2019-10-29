@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/webviewRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.yanzhenjie.sofia.StatusView
+        android:id="@+id/status_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        />
+
+    <include
+        android:id="@+id/title"
+        android:layout_below="@+id/status_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/include_title"
+        />
+
+    <View
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_dddddd" />
+
+    <WebView
+        android:layout_below="@+id/title"
+        android:id="@+id/webview_adv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="1dp"
+         />
+
+    <LinearLayout
+        android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical" />
+
+    <Button
+        android:id="@+id/bt_vippaly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="280dp"
+        android:alpha="0.8"
+        android:background="@drawable/selector_bg_color_blue_dark_shap4_press"
+        android:paddingBottom="8dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp"
+        android:text="VIP特权播放"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:visibility="gone" />
+</RelativeLayout>

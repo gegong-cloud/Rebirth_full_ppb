@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+
+    <TextView
+        android:id="@+id/money_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/money_number"
+        android:singleLine="true"
+        android:textSize="@dimen/sp_16"
+        android:textColor="@color/font_333333"
+        android:gravity="center|left"
+        android:text="提现"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/money_time"
+        android:layout_below="@+id/money_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_12"
+        android:textColor="@color/font_999999"
+        android:gravity="center|left"
+        android:text="2019/01/13 18:08:04"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="3dp"
+        />
+
+    <TextView
+        android:id="@+id/money_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_16"
+        android:textColor="@color/font_fc488c"
+        android:gravity="center|left"
+        android:text="+15.00"
+        android:layout_marginRight="12dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:background="@color/line_dddddd" />
+</RelativeLayout>

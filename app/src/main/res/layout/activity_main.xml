@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- This could be your fragment container, or something -->
+    <com.google.android.mvp.ui.widget.NoScrollViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomBar" />
+
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        app:bb_tabXmlResource="@xml/bottombar_tabs" />
+
+    <TextView
+        android:id="@+id/call_service"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/bottomBar"
+        android:textSize="@dimen/sp_14"
+        android:textColor="@color/font_333333"
+        android:text="在线客服"
+        android:drawableTop="@drawable/top_service"
+        android:gravity="center"
+        android:drawablePadding="1dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="25dp"
+        />
+
+    <ImageView
+        android:id="@+id/recharge_img"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/home_float_gg"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="65dp"
+        android:layout_marginRight="12dp"
+        />
+
+</RelativeLayout>

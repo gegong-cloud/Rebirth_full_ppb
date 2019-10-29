@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.yanzhenjie.sofia.StatusView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" />
+
+    <include layout="@layout/include_title" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_dddddd" />
+
+    <EditText
+        android:id="@+id/pwd_phone"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="23dp"
+        android:background="@android:color/transparent"
+        android:hint="请输入旧密码"
+        android:inputType="number"
+        android:singleLine="true"
+        android:textColor="@color/font_333333"
+        android:textColorHint="@color/font_cccccc"
+        android:textSize="@dimen/sp_16" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/line_dddddd" />
+
+    <EditText
+        android:id="@+id/pwd_old_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="15dp"
+        android:background="@android:color/transparent"
+        android:hint="请输入新密码"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="@color/font_333333"
+        android:textColorHint="@color/font_cccccc"
+        android:textSize="@dimen/sp_16"
+
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/line_dddddd" />
+
+    <EditText
+        android:id="@+id/pwd_new_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="15dp"
+        android:background="@android:color/transparent"
+        android:hint="请确认新密码"
+        android:inputType="number"
+        android:singleLine="true"
+        android:textColor="@color/font_333333"
+        android:textColorHint="@color/font_cccccc"
+        android:textSize="@dimen/sp_16" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/line_dddddd" />
+
+
+    <TextView
+        android:id="@+id/pwd_ok"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/radius_fc4288_7"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="60dp"
+        android:textSize="@dimen/sp_16"
+        android:textColor="@color/white"
+        android:text="完成"
+        android:gravity="center"
+        />
+
+</LinearLayout>
+

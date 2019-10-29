@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <com.yanzhenjie.sofia.StatusView
+        android:id="@+id/status_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" />
+
+    <TextView
+        android:id="@+id/home_title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/status_view"
+        android:gravity="center|left"
+        android:paddingLeft="21dp"
+        android:text="直播"
+        android:textColor="@color/balck"
+        android:textSize="@dimen/sp_18" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/home_title"
+        android:background="@color/line_dddddd"
+        />
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/smart_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/home_title">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/live_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+
+</RelativeLayout>

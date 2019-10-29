@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_F9F9F9"
+    android:orientation="vertical">
+
+    <com.yanzhenjie.sofia.StatusView
+        android:id="@+id/status_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FB2F58" />
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/vip_bg"
+        app:contentInsetStart="0dp"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleMarginStart="20dp">
+
+        <RelativeLayout
+            android:id="@+id/toolbar_back"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left">
+
+            <ImageView
+                android:id="@+id/toolbar_back_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/white_back" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/toolbar_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_16"
+            android:visibility="gone"
+             />
+
+        <ImageView
+            android:id="@+id/toolbar_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="历史记录"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_18" />
+
+
+    </android.support.v7.widget.Toolbar>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:id="@+id/record_in"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/sp_16"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="@color/font_fc488c"
+            android:layout_marginLeft="49dp"
+            android:gravity="center"
+            android:text="今日"
+            android:layout_alignParentLeft="true"
+            />
+        <View
+            android:id="@+id/record_in_line"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="@color/font_fc488c"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/record_in"
+            android:layout_alignRight="@+id/record_in"
+            />
+
+        <TextView
+            android:id="@+id/record_center"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="@dimen/sp_16"
+            android:textColor="@color/font_333333"
+            android:gravity="center"
+            android:text="7日"
+            android:layout_marginLeft="30dp"
+            />
+        <View
+            android:id="@+id/record_center_line"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="@color/font_fc488c"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/record_center"
+            android:layout_alignRight="@+id/record_center"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/record_out"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="49dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="@dimen/sp_16"
+            android:textColor="@color/font_333333"
+            android:gravity="center"
+            android:text="更早"
+            android:layout_marginLeft="30dp"
+            />
+        <View
+            android:id="@+id/record_out_line"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:background="@color/font_fc488c"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/record_out"
+            android:layout_alignRight="@+id/record_out"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/bg_FAFAFA"
+        />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

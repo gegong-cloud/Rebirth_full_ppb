@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <com.yanzhenjie.sofia.StatusView
+        android:id="@+id/status_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" />
+    <TextView
+        android:id="@+id/home_title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center|left"
+        android:layout_below="@+id/status_view"
+        android:paddingLeft="21dp"
+        android:text="影视"
+        android:textColor="@color/balck"
+        android:textSize="@dimen/sp_18" />
+    <View
+        android:layout_width="match_parent"
+
+        android:layout_height="1dp"
+        android:background="@color/line_dddddd"
+        android:layout_below="@+id/home_title"
+        />
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/smart_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/home_title">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/home_hot_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+    <RelativeLayout
+        android:id="@+id/home_float_gg"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/home_title"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="185dp"
+        android:visibility="invisible">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/home_float_gg" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

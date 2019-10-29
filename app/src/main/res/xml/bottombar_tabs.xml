@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/tab_home_icon"
+        activeColor="@color/main_color"
+        title="@string/main_home_text" />
+    <tab
+        id="@+id/tab_cloud"
+        icon="@drawable/tab_cloud_icon"
+        activeColor="@color/main_color"
+        title="@string/main_cloud_text" />
+
+    <tab
+        id="@+id/tab_live"
+        icon="@drawable/tab_live_icon"
+        activeColor="@color/main_color"
+        title="@string/main_live_text" />
+
+    <tab
+        id="@+id/tab_movie"
+        icon="@drawable/tab_movie_icon"
+        activeColor="@color/main_color"
+        title="@string/main_movie_text" />
+
+    <tab
+        id="@+id/tab_mine"
+        icon="@drawable/tab_mine_icon"
+        activeColor="@color/main_color"
+        title="@string/main_mine_text" />
+
+
+</tabs>
