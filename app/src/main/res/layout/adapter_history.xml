@@ -36,7 +36,7 @@
         android:layout_toRightOf="@+id/history_img"
         android:layout_marginTop="1dp"
         android:textSize="@dimen/sp_14"
-        android:textColor="@color/font_333333"
+        android:textColor="@color/font_78788E"
         android:maxLines="3"
         android:gravity="center|left"
         />
@@ -67,7 +67,7 @@
         android:layout_toRightOf="@+id/history_img"
         android:layout_marginBottom="2dp"
         android:textSize="@dimen/sp_12"
-        android:textColor="@color/font_999999"
+        android:textColor="@color/font_78788E"
         android:singleLine="true"
         android:gravity="center|left"
         />

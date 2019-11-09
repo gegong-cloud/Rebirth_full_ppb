@@ -40,7 +40,7 @@
         android:layout_height="46dp"
         android:gravity="center"
         android:text="黑高跟水手制服大学生"
-        android:textColor="@color/font_333333"
+        android:textColor="@color/white"
         android:maxLines="1"
         android:ellipsize="end"
         android:textSize="@dimen/sp_12" />

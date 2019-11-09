@@ -2,20 +2,20 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_f0eff5"
+    android:background="@color/bg_0e0e1a"
     android:orientation="vertical">
 
     <com.yanzhenjie.sofia.StatusView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white" />
+        android:background="@color/bg_main" />
 
     <include layout="@layout/include_title" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@color/white"
+        android:background="@color/bg_main"
         android:layout_marginTop="8dp"
         >
         <ImageView
@@ -29,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/sp_16"
-            android:textColor="@color/font_333333"
+            android:textColor="@color/white"
             android:layout_gravity="center_vertical"
             android:text="支付宝"
             android:layout_marginLeft="10dp"
@@ -44,7 +44,7 @@
             android:hint="请输入支付宝账号"
             android:inputType="text"
             android:singleLine="true"
-            android:textColor="@color/font_333333"
+            android:textColor="@color/white"
             android:textColorHint="@color/font_cccccc"
             android:textSize="@dimen/sp_16" />
 
@@ -56,7 +56,7 @@
         android:layout_height="33dp"
         android:textSize="@dimen/sp_12"
         android:gravity="center|left"
-        android:textColor="@color/font_999999"
+        android:textColor="@color/font_78788E"
         android:layout_gravity="center_vertical"
         android:text="请绑定持卡人本人的银行卡"
         android:layout_marginLeft="20dp"
@@ -65,7 +65,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@color/white"
+        android:background="@color/bg_main"
         android:layout_marginTop="8dp"
         android:orientation="horizontal"
         >
@@ -74,7 +74,7 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:textSize="@dimen/sp_16"
-            android:textColor="@color/font_333333"
+            android:textColor="@color/white"
             android:layout_gravity="center_vertical"
             android:text="银行名称"
             android:layout_marginLeft="20dp"
@@ -90,7 +90,7 @@
             android:hint="请输入银行名称"
             android:inputType="text"
             android:singleLine="true"
-            android:textColor="@color/font_333333"
+            android:textColor="@color/white"
             android:textColorHint="@color/font_cccccc"
             android:textSize="@dimen/sp_16" />
 
@@ -100,13 +100,13 @@
         android:layout_height="1dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:background="@color/line_dddddd" />
+        android:background="@color/line_3C3C5C" />
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/white"
+        android:background="@color/bg_main"
         android:orientation="horizontal"
         >
         <TextView
@@ -114,7 +114,7 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:textSize="@dimen/sp_16"
-            android:textColor="@color/font_333333"
+            android:textColor="@color/white"
             android:layout_gravity="center_vertical"
             android:text="持卡人"
             android:layout_marginLeft="20dp"
@@ -130,7 +130,7 @@
             android:hint="请输入持卡人姓名"
             android:inputType="text"
             android:singleLine="true"
-            android:textColor="@color/font_333333"
+            android:textColor="@color/white"
             android:textColorHint="@color/font_cccccc"
             android:textSize="@dimen/sp_16" />
 
@@ -140,12 +140,12 @@
         android:layout_height="1dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:background="@color/line_dddddd" />
+        android:background="@color/line_3C3C5C" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@color/white"
+        android:background="@color/bg_main"
         android:orientation="horizontal"
         >
         <TextView
@@ -153,7 +153,7 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:textSize="@dimen/sp_16"
-            android:textColor="@color/font_333333"
+            android:textColor="@color/white"
             android:layout_gravity="center_vertical"
             android:text="卡号"
             android:layout_marginLeft="20dp"
@@ -169,7 +169,7 @@
             android:hint="请输入银行卡账号"
             android:inputType="number"
             android:singleLine="true"
-            android:textColor="@color/font_333333"
+            android:textColor="@color/white"
             android:textColorHint="@color/font_cccccc"
             android:textSize="@dimen/sp_16" />
 
@@ -179,14 +179,14 @@
         android:layout_height="1dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:background="@color/line_dddddd" />
+        android:background="@color/line_3C3C5C" />
 
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@color/white"
+        android:background="@color/bg_main"
         android:orientation="horizontal"
         >
         <TextView
@@ -194,7 +194,7 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:textSize="@dimen/sp_16"
-            android:textColor="@color/font_333333"
+            android:textColor="@color/white"
             android:layout_gravity="center_vertical"
             android:text="手机号"
             android:layout_marginLeft="20dp"
@@ -210,7 +210,7 @@
             android:hint="请输入银行预留的手机号"
             android:inputType="phone"
             android:singleLine="true"
-            android:textColor="@color/font_333333"
+            android:textColor="@color/white"
             android:textColorHint="@color/font_cccccc"
             android:textSize="@dimen/sp_16" />
 

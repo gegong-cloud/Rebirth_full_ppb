@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="44dp"
-    android:background="@color/white"
+    android:background="@color/bg_main"
     >
     <ImageView
         android:id="@+id/self_help_img"
@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:textSize="@dimen/sp_16"
-        android:textColor="@color/font_333333"
+        android:textColor="@color/white"
         android:text="支付宝"
         android:layout_toRightOf="@+id/self_help_img"
         android:layout_marginLeft="12dp"
@@ -40,7 +40,7 @@
         android:id="@+id/vip_line"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/line_dddddd"
+        android:background="@color/line_3C3C5C"
         android:layout_marginLeft="15dp"
         android:layout_alignParentBottom="true"
         />

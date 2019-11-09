@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_F9F9F9"
+    android:background="@color/bg_0e0e1a"
     android:orientation="vertical">
 
     <LinearLayout
@@ -19,7 +19,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="22dp"
             android:layout_weight="1"
-            android:background="@drawable/radius_282828_30"
+            android:background="@drawable/radius_999999_30"
             android:drawableLeft="@drawable/search"
             android:drawablePadding="30dp"
             android:gravity="center|left"
@@ -41,7 +41,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="12dp"
             android:text="取消"
-            android:textColor="@color/font_main"
+            android:textColor="@color/white"
             android:textSize="@dimen/sp_16" />
     </LinearLayout>
 
@@ -81,7 +81,7 @@
                     android:layout_centerVertical="true"
                     android:paddingLeft="20dp"
                     android:text="热门搜索"
-                    android:textColor="@color/font_333333"
+                    android:textColor="@color/font_78788E"
                     android:textSize="@dimen/sp_14"
                     android:textStyle="bold" />
             </RelativeLayout>
@@ -99,7 +99,7 @@
         android:id="@+id/all_search_nodata"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/white"
+        android:background="@color/bg_0e0e1a"
         >
         <ImageView
             android:id="@+id/notice_empty_img"
@@ -116,7 +116,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:textSize="@dimen/sp_14"
-            android:textColor="@color/font_999999"
+            android:textColor="@color/white"
             android:layout_marginTop="-45dp"
             android:text="没有搜索到影片,换个关键词试试"
             />

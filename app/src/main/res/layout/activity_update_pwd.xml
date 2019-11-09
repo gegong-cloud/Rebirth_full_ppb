@@ -2,20 +2,20 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/bg_0e0e1a"
     android:orientation="vertical">
 
     <com.yanzhenjie.sofia.StatusView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white" />
+        android:background="@color/bg_main" />
 
     <include layout="@layout/include_title" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/line_dddddd" />
+        android:background="@color/line_3C3C5C" />
 
     <EditText
         android:id="@+id/pwd_phone"
@@ -28,7 +28,7 @@
         android:hint="请输入旧密码"
         android:inputType="number"
         android:singleLine="true"
-        android:textColor="@color/font_333333"
+        android:textColor="@color/white"
         android:textColorHint="@color/font_cccccc"
         android:textSize="@dimen/sp_16" />
 
@@ -37,7 +37,7 @@
         android:layout_height="1dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:background="@color/line_dddddd" />
+        android:background="@color/line_3C3C5C" />
 
     <EditText
         android:id="@+id/pwd_old_pwd"
@@ -49,7 +49,7 @@
         android:hint="请输入新密码"
         android:inputType="textPassword"
         android:singleLine="true"
-        android:textColor="@color/font_333333"
+        android:textColor="@color/white"
         android:textColorHint="@color/font_cccccc"
         android:textSize="@dimen/sp_16"
 
@@ -60,7 +60,7 @@
         android:layout_height="1dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:background="@color/line_dddddd" />
+        android:background="@color/line_3C3C5C" />
 
     <EditText
         android:id="@+id/pwd_new_pwd"
@@ -72,7 +72,7 @@
         android:hint="请确认新密码"
         android:inputType="number"
         android:singleLine="true"
-        android:textColor="@color/font_333333"
+        android:textColor="@color/white"
         android:textColorHint="@color/font_cccccc"
         android:textSize="@dimen/sp_16" />
 
@@ -81,7 +81,7 @@
         android:layout_height="1dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:background="@color/line_dddddd" />
+        android:background="@color/line_3C3C5C" />
 
 
     <TextView

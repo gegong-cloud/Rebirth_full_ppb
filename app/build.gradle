@@ -10,7 +10,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
     }
     defaultConfig {
-        applicationId "com.faker.papapapab"
+        applicationId "com.aapt.look"
         minSdkVersion rootProject.ext.android["minSdkVersion"]
         targetSdkVersion rootProject.ext.android["targetSdkVersion"]
         versionCode rootProject.ext.android["versionCode"]
@@ -44,10 +44,10 @@ android {
 
     signingConfigs{
         release{
-            keyAlias'qnWKtyeHblenQbxR'
-            keyPassword'123394'
+            keyAlias'ccb'
+            keyPassword'666666'
             storeFile file('../keystone.jks')
-            storePassword'123394'
+            storePassword'666666'
         }
     }
 

@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:src="@drawable/white_back"/>
+            android:src="@drawable/back"/>
 
     </RelativeLayout>
 
@@ -33,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="@dimen/sp_16"
-        android:textColor="@color/balck"
+        android:textColor="@color/font_78788E"
         android:layout_gravity="right"
         android:layout_marginRight="10dp"
         android:visibility="gone"
@@ -52,7 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="@dimen/sp_18"
-        android:textColor="@color/white"
+        android:textColor="@color/font_78788E"
         android:layout_gravity="center"
         android:text="我的钱包"/>
 

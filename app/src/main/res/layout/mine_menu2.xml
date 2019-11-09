@@ -10,7 +10,7 @@
         android:id="@+id/mine_recharge"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/white"
+        android:background="@color/bg_main"
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
@@ -27,7 +27,7 @@
             android:layout_marginLeft="9dp"
             android:gravity="center|left"
             android:text="充值VIP"
-            android:textColor="@color/font_333333"
+            android:textColor="@color/white"
             android:textSize="@dimen/sp_16" />
 
         <TextView
@@ -38,7 +38,7 @@
             android:layout_weight="1"
             android:gravity="center|right"
             android:text=""
-            android:textColor="@color/radius_fc4288"
+            android:textColor="@color/font_78788E"
             android:textSize="@dimen/sp_12" />
 
         <ImageView
@@ -54,14 +54,14 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginLeft="15dp"
-        android:background="@color/line_dddddd"
+        android:background="@color/line_3C3C5C"
         />
 
     <LinearLayout
         android:id="@+id/mine_call_service"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/white"
+        android:background="@color/bg_main"
         android:gravity="center_vertical"
         android:orientation="horizontal"
         >
@@ -79,7 +79,7 @@
             android:layout_marginLeft="9dp"
             android:gravity="center|left"
             android:text="联系客服"
-            android:textColor="@color/font_333333"
+            android:textColor="@color/white"
             android:textSize="@dimen/sp_16" />
 
         <TextView
@@ -90,7 +90,7 @@
             android:layout_weight="1"
             android:gravity="center|right"
             android:text=""
-            android:textColor="@color/radius_fc4288"
+            android:textColor="@color/font_78788E"
             android:textSize="@dimen/sp_12" />
         <ImageView
             android:layout_width="20dp"
@@ -104,13 +104,13 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginLeft="15dp"
-        android:background="@color/line_dddddd"
+        android:background="@color/line_3C3C5C"
         />
     <LinearLayout
         android:id="@+id/mine_favor"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/white"
+        android:background="@color/bg_main"
         android:gravity="center_vertical"
         android:orientation="horizontal"
         >
@@ -129,7 +129,7 @@
             android:layout_weight="1"
             android:gravity="center|left"
             android:text="我的收藏"
-            android:textColor="@color/font_333333"
+            android:textColor="@color/white"
             android:textSize="@dimen/sp_16" />
 
         <ImageView
@@ -143,13 +143,13 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginLeft="15dp"
-        android:background="@color/line_dddddd"
+        android:background="@color/line_3C3C5C"
         />
     <LinearLayout
         android:id="@+id/mine_history"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/white"
+        android:background="@color/bg_main"
         android:gravity="center_vertical"
         android:orientation="horizontal"
         >
@@ -168,7 +168,7 @@
             android:layout_weight="1"
             android:gravity="center|left"
             android:text="历史记录"
-            android:textColor="@color/font_333333"
+            android:textColor="@color/white"
             android:textSize="@dimen/sp_16" />
 
         <ImageView
@@ -183,14 +183,14 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginLeft="15dp"
-        android:background="@color/line_dddddd"
+        android:background="@color/line_3C3C5C"
         />
     <LinearLayout
         android:id="@+id/mine_wallet"
         android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/white"
+        android:background="@color/bg_main"
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
@@ -207,7 +207,7 @@
             android:layout_marginLeft="9dp"
             android:gravity="center|left"
             android:text="我的钱包"
-            android:textColor="@color/font_333333"
+            android:textColor="@color/white"
             android:textSize="@dimen/sp_16" />
         <TextView
             android:id="@+id/mine_wallet_text"
@@ -217,7 +217,7 @@
             android:layout_weight="1"
             android:gravity="center|right"
             android:text=""
-            android:textColor="@color/radius_fc4288"
+            android:textColor="@color/font_78788E"
             android:textSize="@dimen/sp_12" />
 
         <ImageView
@@ -232,7 +232,7 @@
         android:id="@+id/mine_invite1"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/white"
+        android:background="@color/bg_main"
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
@@ -249,7 +249,7 @@
             android:layout_marginLeft="9dp"
             android:gravity="center|left"
             android:text="邀请好友"
-            android:textColor="@color/font_333333"
+            android:textColor="@color/white"
             android:textSize="@dimen/sp_16" />
         <TextView
             android:id="@+id/invite1_text"
@@ -259,7 +259,7 @@
             android:layout_weight="1"
             android:gravity="center|right"
             android:text=""
-            android:textColor="@color/radius_fc4288"
+            android:textColor="@color/font_78788E"
             android:textSize="@dimen/sp_12" />
 
         <ImageView
@@ -275,7 +275,7 @@
         android:id="@+id/mine_accagent"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/white"
+        android:background="@color/bg_main"
         android:gravity="center_vertical"
         android:layout_marginTop="8dp"
         android:orientation="horizontal">
@@ -294,7 +294,7 @@
             android:layout_weight="1"
             android:gravity="center|left"
             android:text="加入代理"
-            android:textColor="@color/font_333333"
+            android:textColor="@color/white"
             android:textSize="@dimen/sp_16" />
 
         <ImageView
@@ -309,7 +309,7 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginLeft="15dp"
-        android:background="@color/line_dddddd"
+        android:background="@color/line_3C3C5C"
         />
 
     <LinearLayout
@@ -317,7 +317,7 @@
         android:visibility="visible"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/white"
+        android:background="@color/bg_main"
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
@@ -334,7 +334,7 @@
             android:layout_marginLeft="9dp"
             android:gravity="center|left"
             android:text="我的分享"
-            android:textColor="@color/font_333333"
+            android:textColor="@color/white"
             android:textSize="@dimen/sp_16" />
 
         <TextView
@@ -345,7 +345,7 @@
             android:layout_weight="1"
             android:gravity="center|right"
             android:text=""
-            android:textColor="@color/radius_fc4288"
+            android:textColor="@color/font_78788E"
             android:textSize="@dimen/sp_12" />
         <ImageView
             android:layout_width="20dp"
@@ -359,7 +359,7 @@
         android:id="@+id/mine_makemoney"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/white"
+        android:background="@color/bg_main"
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
@@ -377,7 +377,7 @@
             android:layout_weight="1"
             android:gravity="center|left"
             android:text="如何赚钱"
-            android:textColor="@color/font_333333"
+            android:textColor="@color/white"
             android:textSize="@dimen/sp_16" />
 
         <ImageView
@@ -395,14 +395,14 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginLeft="15dp"
-        android:background="@color/line_dddddd"
+        android:background="@color/line_3C3C5C"
         />
     <LinearLayout
         android:id="@+id/mine_invite"
         android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/white"
+        android:background="@color/bg_main"
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
@@ -419,7 +419,7 @@
             android:layout_marginLeft="9dp"
             android:gravity="center|left"
             android:text="邀请好友"
-            android:textColor="@color/font_333333"
+            android:textColor="@color/white"
             android:textSize="@dimen/sp_16" />
 
         <TextView
@@ -430,7 +430,7 @@
             android:layout_weight="1"
             android:gravity="center|right"
             android:text="邀请好友获取免费VIP时间！"
-            android:textColor="@color/radius_fc4288"
+            android:textColor="@color/font_78788E"
             android:textSize="@dimen/sp_12" />
 
         <ImageView
@@ -446,7 +446,7 @@
         android:id="@+id/mine_pwd"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/white"
+        android:background="@color/bg_main"
         android:gravity="center_vertical"
         android:orientation="horizontal"
         android:layout_marginTop="8dp"
@@ -466,7 +466,7 @@
             android:layout_weight="1"
             android:gravity="center|left"
             android:text="修改密码"
-            android:textColor="@color/font_333333"
+            android:textColor="@color/white"
             android:textSize="@dimen/sp_16" />
 
         <ImageView
@@ -487,14 +487,14 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginLeft="15dp"
-        android:background="@color/line_dddddd"
+        android:background="@color/line_3C3C5C"
         />
     <LinearLayout
         android:id="@+id/mine_set"
         android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/white"
+        android:background="@color/bg_main"
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
@@ -511,7 +511,7 @@
             android:layout_marginLeft="9dp"
             android:gravity="center|left"
             android:text="设置"
-            android:textColor="@color/font_333333"
+            android:textColor="@color/white"
             android:textSize="@dimen/sp_16" />
         <TextView
             android:id="@+id/mine_set_text"
@@ -521,7 +521,7 @@
             android:layout_weight="1"
             android:gravity="center|right"
             android:text=""
-            android:textColor="@color/radius_fc4288"
+            android:textColor="@color/font_78788E"
             android:textSize="@dimen/sp_12" />
 
 

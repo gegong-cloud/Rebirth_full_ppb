@@ -2,20 +2,19 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_f0eff5"
+    android:background="@color/bg_0e0e1a"
     android:orientation="vertical">
 
     <com.yanzhenjie.sofia.StatusView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white" />
+        android:background="@color/bg_main" />
 
     <include layout="@layout/include_title" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
         android:gravity="center"
         android:orientation="vertical"
         android:paddingTop="30dp">
@@ -30,7 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="13dp"
             android:text="支付信息提交成功"
-            android:textColor="@color/font_333333"
+            android:textColor="@color/white"
             android:textSize="@dimen/sp_14" />
 
         <View
@@ -42,7 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="44dp"
         android:layout_marginTop="8dp"
-        android:background="@color/white"
+        android:background="@color/bg_main"
         android:orientation="horizontal">
 
         <TextView
@@ -52,7 +51,7 @@
             android:layout_weight="1"
             android:gravity="center|left"
             android:text="充值方式"
-            android:textColor="@color/font_999999"
+            android:textColor="@color/font_78788E"
             android:textSize="@dimen/sp_16" />
 
         <TextView
@@ -62,19 +61,20 @@
             android:layout_weight="2.5"
             android:gravity="center|left"
             android:text="线下微信支付"
-            android:textColor="@color/font_333333"
+            android:textColor="@color/white"
             android:textSize="@dimen/sp_16" />
     </LinearLayout>
 
     <View
-        android:layout_width="15dp"
+        android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/white" />
+        android:layout_marginLeft="15dp"
+        android:background="@color/line_3C3C5C" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="44dp"
-        android:background="@color/white"
+        android:background="@color/bg_main"
         android:orientation="horizontal">
 
         <TextView
@@ -84,7 +84,7 @@
             android:layout_weight="1"
             android:gravity="center|left"
             android:text="充值金额"
-            android:textColor="@color/font_999999"
+            android:textColor="@color/font_78788E"
             android:textSize="@dimen/sp_16" />
 
         <TextView
@@ -94,20 +94,21 @@
             android:layout_weight="2.5"
             android:gravity="center|left"
             android:text="30元(人民币)"
-            android:textColor="@color/font_333333"
+            android:textColor="@color/white"
             android:textSize="@dimen/sp_16" />
 
     </LinearLayout>
 
     <View
-        android:layout_width="15dp"
+        android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/white" />
+        android:layout_marginLeft="15dp"
+        android:background="@color/line_3C3C5C" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="44dp"
-        android:background="@color/white"
+        android:background="@color/bg_main"
         android:orientation="horizontal"
         android:visibility="gone">
 
@@ -118,7 +119,7 @@
             android:layout_weight="1"
             android:gravity="center|left"
             android:text="附加码"
-            android:textColor="@color/font_999999"
+            android:textColor="@color/font_78788E"
             android:textSize="@dimen/sp_16" />
 
         <TextView

@@ -2,7 +2,7 @@
 <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_f0eff5">
+    android:background="@color/bg_0e0e1a">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -80,7 +80,7 @@
                     android:layout_width="1dp"
                     android:layout_height="25dp"
                     android:layout_gravity="center_vertical"
-                    android:background="@color/line_EC0138" />
+                    android:background="@color/line_3C3C5C" />
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -110,7 +110,7 @@
             android:id="@+id/choose_accout"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:background="@color/white"
+            android:background="@color/bg_main"
             android:layout_marginTop="12dp"
             >
 
@@ -131,7 +131,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/sp_16"
-                android:textColor="@color/font_333333"
+                android:textColor="@color/white"
                 android:layout_marginTop="-2dp"
                 android:text="建设银行"
                 android:layout_marginLeft="8dp"
@@ -145,7 +145,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/sp_12"
-                android:textColor="@color/font_999999"
+                android:textColor="@color/font_78788E"
                 android:text="尾号4685"
                 android:layout_marginLeft="8dp"
                 />
@@ -178,14 +178,14 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="115dp"
-            android:background="@color/white"
+            android:background="@color/bg_main"
             android:layout_marginTop="8dp"
             >
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/sp_14"
-                android:textColor="@color/font_999999"
+                android:textColor="@color/font_78788E"
                 android:gravity="center"
                 android:text="提现金额"
                 android:layout_marginLeft="20dp"
@@ -196,7 +196,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/sp_20"
-                android:textColor="@color/font_333333"
+                android:textColor="@color/white"
                 android:layout_centerVertical="true"
                 android:gravity="center"
                 android:text="¥"
@@ -209,7 +209,7 @@
                 android:layout_height="wrap_content"
                 android:singleLine="true"
                 android:textSize="@dimen/sp_20"
-                android:textColor="@color/font_333333"
+                android:textColor="@color/white"
                 android:textColorHint="@color/font_cccccc"
                 android:background="@android:color/transparent"
                 android:hint="请输入提现金额"
@@ -223,7 +223,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_above="@+id/available_money"
-                android:background="@color/line_dddddd"
+                android:background="@color/line_3C3C5C"
                 android:layout_marginLeft="20dp"
                 />
             <TextView
@@ -232,7 +232,7 @@
                 android:layout_height="37dp"
                 android:layout_alignParentBottom="true"
                 android:textSize="@dimen/sp_12"
-                android:textColor="@color/font_999999"
+                android:textColor="@color/font_78788E"
                 android:gravity="center"
                 android:text="可用余额0.00元"
                 android:layout_marginLeft="20dp"
@@ -259,7 +259,7 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:textSize="@dimen/sp_12"
-            android:textColor="@color/font_999999"
+            android:textColor="@color/font_78788E"
             android:layout_marginTop="7dp"
             android:layout_gravity="center_horizontal"
             android:gravity="center"
@@ -279,7 +279,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
-                android:background="@drawable/radius_ffffff_fc4288_8"
+                android:background="@drawable/radius_0e0e1a_fc4288_8"
                 android:textSize="@dimen/sp_18"
                 android:textColor="@color/radius_fc4288"
                 android:gravity="center"

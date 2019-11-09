@@ -19,7 +19,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="6dp"
         android:text="pptv"
-        android:textColor="@color/font_666666"
+        android:textColor="@color/white"
         android:textSize="@dimen/sp_12" />
 
     <LinearLayout
@@ -72,11 +72,11 @@
         android:layout_width="1dp"
         android:layout_height="match_parent"
         android:layout_alignParentRight="true"
-        android:background="@color/line_eeeeee" />
+        android:background="@color/line_3C3C5C" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_alignParentBottom="true"
-        android:background="@color/line_eeeeee" />
+        android:background="@color/line_3C3C5C" />
 </RelativeLayout>

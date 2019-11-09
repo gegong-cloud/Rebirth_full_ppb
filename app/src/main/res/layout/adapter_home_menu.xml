@@ -18,7 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="@dimen/sp_12"
-        android:textColor="@color/font_999999"
+        android:textColor="@color/white"
         android:text="pptv"
         android:layout_below="@+id/home_menu_img"
         android:layout_centerHorizontal="true"
@@ -29,13 +29,13 @@
         android:layout_width="1dp"
         android:layout_alignParentRight="true"
         android:layout_height="match_parent"
-        android:background="@color/line_eeeeee"
+        android:background="@color/line_3C3C5C"
         />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/line_eeeeee"
+        android:background="@color/line_3C3C5C"
         android:layout_alignParentBottom="true"
         />
 </RelativeLayout>

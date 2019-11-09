@@ -4,18 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_f0eff5"
+    android:background="@color/bg_0e0e1a"
     android:orientation="vertical">
     <com.yanzhenjie.sofia.StatusView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
+        android:background="@color/bg_main"
         />
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="45dp"
-        android:background="@color/white"
+        android:background="@color/bg_main"
         app:contentInsetStart="0dp"
         app:titleMarginStart="20dp"
         app:layout_scrollFlags="scroll|enterAlways"
@@ -44,7 +44,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/sp_14"
-            android:textColor="@color/font_666666"
+            android:textColor="@color/font_78788E"
             android:layout_gravity="right"
             android:layout_marginRight="12dp"
             tools:text="主播数:"/>
@@ -56,7 +56,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/sp_18"
-            android:textColor="@color/balck"
+            android:textColor="@color/font_78788E"
             android:layout_gravity="center"
             android:text=""/>
 
@@ -67,7 +67,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="@dimen/sp_14"
-        android:textColor="@color/font_999999"
+        android:textColor="@color/white"
         android:layout_gravity="center"
         android:layout_margin="6dp"
         android:text="资源皆来自第三方, 请勿相信任何广告"/>

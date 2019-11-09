@@ -6,7 +6,7 @@
     android:layout_marginBottom="12dp"
     android:layout_marginLeft="12dp"
     android:layout_marginRight="12dp"
-    android:background="@drawable/radius_ffffff_dddddd_6">
+    android:background="@drawable/radius_1e1e2d_6">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,7 +24,7 @@
             android:ellipsize="end"
             android:maxLines="1"
             android:text="视频月卡"
-            android:textColor="@color/font_333333"
+            android:textColor="@color/white"
             android:textSize="@dimen/sp_16" />
 
         <TextView
@@ -46,7 +46,7 @@
             android:maxLines="1"
             android:text="¥39.00"
             android:layout_marginLeft="10dp"
-            android:textColor="@color/font_999999"
+            android:textColor="@color/font_78788E"
             android:textSize="@dimen/sp_12" />
     </LinearLayout>
 
@@ -61,7 +61,7 @@
         android:layout_toLeftOf="@+id/vip_open"
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="10dp"
-        android:textColor="@color/font_999999"
+        android:textColor="@color/font_78788E"
         android:textSize="@dimen/sp_12" />
 
     <TextView

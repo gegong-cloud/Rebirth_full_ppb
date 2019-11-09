@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="4dp"
             android:text="直播机构"
-            android:textColor="@color/font_666666"
+            android:textColor="@color/white"
             android:textSize="@dimen/sp_14" />
 
         <TextView
@@ -56,9 +56,14 @@
             android:layout_weight="1"
             android:text=""
             android:gravity="center|right"
-            android:textColor="@color/font_999999"
+            android:textColor="@color/font_78788E"
             android:paddingRight="13dp"
             android:textSize="@dimen/sp_12" />
     </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_3C3C5C"
+        />
 
 </LinearLayout>

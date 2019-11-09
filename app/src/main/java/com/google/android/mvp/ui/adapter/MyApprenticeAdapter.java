@@ -36,13 +36,13 @@ public class MyApprenticeAdapter extends BaseQuickAdapter<MyTeam, BaseViewHolder
         if (mAppComponent == null) {
             mAppComponent = ArmsUtils.obtainAppComponentFromContext(mContext);
         }
-        int colorId = R.color.font_666666;
+        int colorId = R.color.font_78788E;
         String moneyNumber = "已激活";
         if("1".equals(item.getActive())){
             moneyNumber = "已激活";
             colorId = R.color.radius_fc4288;
         }else{
-            colorId = R.color.font_666666;
+            colorId = R.color.font_78788E;
             moneyNumber = "未激活";
         }
         helper.setText(R.id.dis_phone,!TextUtils.isEmpty(item.getUsername())?(StringUtils.replaceToXing(item.getUsername())):"")

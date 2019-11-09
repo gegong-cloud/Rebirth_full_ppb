@@ -233,19 +233,6 @@ public class MinePlayActivity extends BaseActivity<MinePlayPresenter> implements
         GSYVideoManager.releaseAllVideos();
         super.onBackPressed();
 
-//        if (videoPlayer.isIfCurrentIsFullscreen()) {
-//            super.onBackPressed();
-//        } else {
-//            videoPlayer.setVideoAllCallBack(null);
-//            GSYVideoManager.releaseAllVideos();
-//            new Handler().postDelayed(new Runnable() {
-//                @Override
-//                public void run() {
-//                    finish();
-//                    overridePendingTransition(R.anim.abc_fade_in, R.anim.abc_fade_out);
-//                }
-//            }, 500);
-//        }
     }
 
 
@@ -359,7 +346,7 @@ public class MinePlayActivity extends BaseActivity<MinePlayPresenter> implements
 
     @Override
     public void updateFavoUI(boolean isFavo) {
-        favorImg.setImageResource(isFavo ? R.drawable.favor_press : R.drawable.favor_nopress);
+        favorImg.setImageResource(isFavo ? R.drawable.paly_favor_press : R.drawable.paly_favor_nopress);
     }
 
 

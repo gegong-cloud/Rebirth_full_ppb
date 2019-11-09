@@ -17,6 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_alignParentBottom="true"
+        android:background="@color/bg_main"
         app:bb_tabXmlResource="@xml/bottombar_tabs" />
 
     <TextView
@@ -26,7 +27,7 @@
         android:layout_alignParentRight="true"
         android:layout_above="@+id/bottomBar"
         android:textSize="@dimen/sp_14"
-        android:textColor="@color/font_333333"
+        android:textColor="@color/radius_fc4288"
         android:text="在线客服"
         android:drawableTop="@drawable/top_service"
         android:gravity="center"

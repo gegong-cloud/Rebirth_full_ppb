@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="140dp"
-    android:background="@drawable/radius_ffffff_6"
+    android:background="@drawable/radius_1e1e2d_6"
     android:orientation="vertical"
     android:layout_marginBottom="5dp"
     >
@@ -23,7 +23,7 @@
         android:layout_height="35dp"
         android:gravity="center"
         android:textSize="@dimen/sp_14"
-        android:textColor="@color/font_fc488c"
+        android:textColor="@color/white"
         android:text="五姑娘"
         android:singleLine="true"
         android:paddingLeft="12dp"

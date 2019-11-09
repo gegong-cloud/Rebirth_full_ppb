@@ -25,6 +25,7 @@ import com.google.android.app.utils.sv.DeviceInformationHelper;
 import com.jess.arms.http.GlobalHttpHandler;
 
 import okhttp3.Interceptor;
+import okhttp3.MediaType;
 import okhttp3.Request;
 import okhttp3.Response;
 
@@ -55,7 +56,7 @@ public class GlobalHttpHandlerImpl implements GlobalHttpHandler {
      */
     @Override
     public Response onHttpResultResponse(String httpResult, Interceptor.Chain chain, Response response) {
-
+        MediaType mediaType = response.body().contentType();
         return response;
     }
 

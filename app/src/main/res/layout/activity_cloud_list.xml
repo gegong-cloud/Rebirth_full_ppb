@@ -2,12 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/bg_main"
     android:orientation="vertical">
     <com.yanzhenjie.sofia.StatusView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
+        android:background="@color/bg_main"
         />
     <include
         layout="@layout/include_title"
@@ -15,7 +15,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/line_dddddd"
+        android:background="@color/line_3C3C5C"
         />
     <LinearLayout
         android:id="@+id/yunbo_tag"
@@ -35,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/sp_16"
-            android:textColor="@color/font_333333"
+            android:textColor="@color/white"
             android:text="最新片源"
             android:layout_marginLeft="7dp"
             />

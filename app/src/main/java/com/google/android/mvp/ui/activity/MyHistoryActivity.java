@@ -195,8 +195,8 @@ public class MyHistoryActivity extends BaseActivity<MyHistoryPresenter> implemen
     }
 
     private void setCheck(int flag) {
-        int colorId1 = ContextCompat.getColor(this, R.color.font_B4854D);
-        int colorId2 = ContextCompat.getColor(this, R.color.font_333333);
+        int colorId1 = ContextCompat.getColor(this, R.color.white);
+        int colorId2 = ContextCompat.getColor(this, R.color.font_78788E);
         recordInLine.setVisibility(View.GONE);
         recordCenterLine.setVisibility(View.GONE);
         recordOutLine.setVisibility(View.GONE);

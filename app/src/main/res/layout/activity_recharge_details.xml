@@ -2,13 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/bg_0e0e1a"
     android:orientation="vertical">
 
     <com.yanzhenjie.sofia.StatusView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white" />
+        android:background="@color/bg_main" />
 
     <include layout="@layout/include_title" />
 
@@ -23,7 +23,7 @@
         android:layout_height="30dp"
         android:gravity="center"
         android:text="您最近的充值记录"
-        android:textColor="@color/font_333333"
+        android:textColor="@color/font_78788E"
         android:textSize="@dimen/sp_16" />
     <TextView
         android:id="@+id/recharege_details"
@@ -31,7 +31,7 @@
         android:layout_height="30dp"
         android:gravity="center|top"
         android:text="@string/online_service"
-        android:textColor="@color/font_333333"
+        android:textColor="@color/white"
         android:textSize="@dimen/sp_16" />
 
     <com.scwang.smartrefresh.layout.SmartRefreshLayout

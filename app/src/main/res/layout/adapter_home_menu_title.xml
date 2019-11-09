@@ -8,7 +8,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="39dp"
         android:layout_marginTop="12dp"
         android:gravity="center_vertical"
         android:orientation="horizontal">
@@ -27,9 +27,14 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="4dp"
             android:text="VIP视频观看区"
-            android:textColor="@color/font_666666"
+            android:textColor="@color/white"
             android:textSize="@dimen/sp_14" />
     </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_3C3C5C"
+        />
     <android.support.v7.widget.RecyclerView
         android:id="@+id/home_menu_recyclerview"
         android:layout_width="match_parent"

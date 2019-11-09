@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/bg_0e0e1a"
     android:orientation="vertical">
     <com.yanzhenjie.sofia.StatusView
         android:layout_width="match_parent"
@@ -13,7 +13,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/line_dddddd"
+
         />
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -31,7 +31,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/sp_16"
-                android:textColor="@color/font_666666"
+                android:textColor="@color/font_78788E"
                 android:layout_marginTop="10dp"
                 />
             <TextView
@@ -39,7 +39,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/sp_16"
-                android:textColor="@color/font_333333"
+                android:textColor="@color/white"
                 android:layout_marginTop="10dp"
                 />
 
@@ -54,7 +54,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="@dimen/sp_14"
-                    android:textColor="@color/font_333333"
+                    android:textColor="@color/font_78788E"
                     android:text="充值金额"
                     />
                 <TextView
@@ -114,7 +114,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/sp_16"
-                android:textColor="@color/font_333333"
+                android:textColor="@color/font_78788E"
                 android:layout_marginTop="5dp"
                 android:text="订单有效时间: 120秒"
                 />
@@ -124,7 +124,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:textSize="@dimen/sp_12"
-                android:textColor="@color/font_666666"
+                android:textColor="@color/font_78788E"
                 android:gravity="center|left"
                 android:lineSpacingExtra="2dp"
                 android:text="@string/vip_qrcode_tip"
@@ -166,7 +166,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/sp_16"
-                android:textColor="@color/font_333333"
+                android:textColor="@color/font_78788E"
                 android:text="切记此二维码只能使用一次  不要扫描第二次"
                 android:layout_marginTop="7dp"
                 />

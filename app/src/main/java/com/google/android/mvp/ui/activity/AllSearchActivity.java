@@ -15,6 +15,7 @@ import android.widget.EditText;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.afollestad.materialdialogs.MaterialDialog;
 import com.jess.arms.base.BaseActivity;
 import com.jess.arms.di.component.AppComponent;
 import com.jess.arms.utils.ArmsUtils;
@@ -59,6 +60,9 @@ public class AllSearchActivity extends BaseActivity<AllSearchPresenter> implemen
     @BindView(R.id.all_search_nodata)
     RelativeLayout allSearchNodata;
 
+    //进度框
+    private MaterialDialog materialDialog;
+
     @Override
     public void setupActivityComponent(@NonNull AppComponent appComponent) {
         DaggerAllSearchComponent //如找不到该类,请编译一下项目
@@ -76,6 +80,7 @@ public class AllSearchActivity extends BaseActivity<AllSearchPresenter> implemen
 
     @Override
     public void initData(@Nullable Bundle savedInstanceState) {
+        materialDialog = new MaterialDialog.Builder(this).content("正在搜索...").progress(true, 0).build();
         mPresenter.searchHot();
         //刷新加载更多
         smartRefresh.setOnRefreshListener(new OnRefreshListener() {
@@ -110,12 +115,12 @@ public class AllSearchActivity extends BaseActivity<AllSearchPresenter> implemen
 
     @Override
     public void showLoading() {
-
+        materialDialog.show();
     }
 
     @Override
     public void hideLoading() {
-
+        materialDialog.cancel();
     }
 
     @Override

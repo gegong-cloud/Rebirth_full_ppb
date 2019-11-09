@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="com.google.android">
+    package="com.google.android">
 
     <!-- 访问网络，网络定位需要上网 -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -18,58 +18,59 @@
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
 
     <application
-            android:name="com.google.android.app.MyApplication"
-            android:allowBackup="true"
-            android:icon="@drawable/app_logo"
-            android:label="@string/app_name"
-            android:networkSecurityConfig="@xml/network_security_config"
-            android:supportsRtl="true"
-            android:theme="@style/AppTheme">
+        android:name="com.google.android.app.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
         <meta-data
-                android:name="io.fabric.ApiKey"
-                android:value="b8ce2d15b1e5cbd61c0091d0c756966f1e5a2c16" />
+            android:name="io.fabric.ApiKey"
+            android:value="b8ce2d15b1e5cbd61c0091d0c756966f1e5a2c16" />
 
         <!-- 适配全面屏 -->
         <meta-data
-                android:name="android.max_aspect"
-                android:value="2.4" />
+            android:name="android.max_aspect"
+            android:value="2.4" />
         <!-- 适配华为(hua wei)刘海屏 -->
         <meta-data
-                android:name="android.notch_support"
-                android:value="true" />
+            android:name="android.notch_support"
+            android:value="true" />
         <!-- 适配小米(xiao mi)刘海屏 -->
         <meta-data
-                android:name="notch.config"
-                android:value="portrait|landscape" />
+            android:name="notch.config"
+            android:value="portrait|landscape" />
 
         <service
-                android:name="com.google.android.app.utils.down.DownloadService"
-                android:enabled="true"
-                android:exported="true" />
+            android:name="com.google.android.app.utils.down.DownloadService"
+            android:enabled="true"
+            android:exported="true" />
 
         <!-- 配置文件兼容 -->
         <provider
-                android:name="android.support.v4.content.FileProvider"
-                android:authorities="com.faker.papapapab.fileprovider"
-                android:exported="false"
-                android:grantUriPermissions="true">
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.aapt.look.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
             <meta-data
-                    android:name="android.support.FILE_PROVIDER_PATHS"
-                    android:resource="@xml/file_paths" />
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
         </provider>
+
 
 
         <!-- mvp 框架配置 -->
         <meta-data
-                android:name="com.google.android.app.GlobalConfiguration"
-                android:value="ConfigModule" />
+            android:name="com.google.android.app.GlobalConfiguration"
+            android:value="ConfigModule" />
 
         <activity
-                android:name="com.google.android.mvp.ui.activity.StarUpActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:launchMode="singleTask"
-                android:screenOrientation="portrait"
-                android:theme="@style/SmainTheme">
+            android:name="com.google.android.mvp.ui.activity.StarUpActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/SmainTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -81,147 +82,147 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data android:scheme="adsfadfaaaaa" />
+                <data android:scheme="hgcpho" /> <!-- 夜幕-hgcpho /////    ulwhy4成都客户 -->
             </intent-filter>
         </activity>
         <!-- liveChat -->
         <activity
-                android:name="com.livechatinc.inappchat.ChatWindowActivity"
-                android:configChanges="orientation|screenSize" />
+            android:name="com.livechatinc.inappchat.ChatWindowActivity"
+            android:configChanges="orientation|screenSize" />
         <!-- WX PAY -->
         <activity
-                android:name="com.google.android.wxapi.WXEntryActivity"
-                android:configChanges="keyboardHidden|orientation|screenSize"
-                android:exported="true" />
+            android:name="com.google.android.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true" />
         <activity
-                android:name="com.google.android.wxapi.WXPayEntryActivity"
-                android:configChanges="keyboardHidden|orientation|screenSize"
-                android:exported="true" />
+            android:name="com.google.android.wxapi.WXPayEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true" />
         <activity
-                android:name="com.google.android.mvp.ui.activity.MainActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
+            android:name="com.google.android.mvp.ui.activity.MainActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
         <activity
-                android:name="com.google.android.mvp.ui.activity.PayOptionActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
+            android:name="com.google.android.mvp.ui.activity.PayOptionActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
         <activity
-                android:name="com.google.android.mvp.ui.activity.PayCodeShowActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
+            android:name="com.google.android.mvp.ui.activity.PayCodeShowActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
         <activity
-                android:name="com.google.android.mvp.ui.activity.CloudListActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
+            android:name="com.google.android.mvp.ui.activity.CloudListActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
         <activity
-                android:name="com.google.android.mvp.ui.activity.LiveListActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
+            android:name="com.google.android.mvp.ui.activity.LiveListActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
         <activity
-                android:name="com.google.android.mvp.ui.activity.MoneyDetailActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
+            android:name="com.google.android.mvp.ui.activity.MoneyDetailActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
         <activity
-                android:name="com.google.android.mvp.ui.activity.UpdatePwdActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
+            android:name="com.google.android.mvp.ui.activity.UpdatePwdActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
         <activity
-                android:name="com.google.android.mvp.ui.activity.DisCommissionActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
+            android:name="com.google.android.mvp.ui.activity.DisCommissionActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
         <activity
-                android:name="com.google.android.mvp.ui.activity.MyApprenticeActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
+            android:name="com.google.android.mvp.ui.activity.MyApprenticeActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
         <activity
-                android:name="com.google.android.mvp.ui.activity.InviteFriendActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
+            android:name="com.google.android.mvp.ui.activity.InviteFriendActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
         <activity
-                android:name="com.google.android.mvp.ui.activity.MyWalletActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
+            android:name="com.google.android.mvp.ui.activity.MyWalletActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
         <activity
-                android:name="com.google.android.mvp.ui.activity.ChooseAccoutActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
+            android:name="com.google.android.mvp.ui.activity.ChooseAccoutActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
         <activity
-                android:name="com.google.android.mvp.ui.activity.SetActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
+            android:name="com.google.android.mvp.ui.activity.SetActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
         <activity
-                android:name="com.google.android.mvp.ui.activity.RegActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
+            android:name="com.google.android.mvp.ui.activity.RegActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
         <activity
-                android:name="com.google.android.mvp.ui.activity.ForgetPwdActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
+            android:name="com.google.android.mvp.ui.activity.ForgetPwdActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
         <activity
-                android:name="com.google.android.mvp.ui.activity.VipRechargeActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
+            android:name="com.google.android.mvp.ui.activity.VipRechargeActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
         <activity
-                android:name="com.google.android.mvp.ui.activity.LoginActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait"
-                android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+            android:name="com.google.android.mvp.ui.activity.LoginActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-                android:name="com.google.android.mvp.ui.activity.CarouselAdActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
+            android:name="com.google.android.mvp.ui.activity.CarouselAdActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
         <activity
-                android:name="com.google.android.mvp.ui.activity.LivingActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
+            android:name="com.google.android.mvp.ui.activity.LivingActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
         <activity
-                android:name="com.google.android.mvp.ui.activity.VipVideoActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
+            android:name="com.google.android.mvp.ui.activity.VipVideoActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
         <activity
-                android:name="com.google.android.mvp.ui.activity.VipVideoPlayerActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
+            android:name="com.google.android.mvp.ui.activity.VipVideoPlayerActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
         <activity
-                android:name="com.google.android.mvp.ui.activity.OfflineRechargeActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
+            android:name="com.google.android.mvp.ui.activity.OfflineRechargeActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
         <activity
-                android:name="com.google.android.mvp.ui.activity.WebViewActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
+            android:name="com.google.android.mvp.ui.activity.WebViewActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
         <activity
-                android:name="com.google.android.mvp.ui.activity.VipQrcodeActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
+            android:name="com.google.android.mvp.ui.activity.VipQrcodeActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
         <activity
-                android:name="com.google.android.mvp.ui.activity.MinePlayActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
+            android:name="com.google.android.mvp.ui.activity.MinePlayActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
         <activity
-                android:name="com.google.android.mvp.ui.activity.RechargeDetailsActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
+            android:name="com.google.android.mvp.ui.activity.RechargeDetailsActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
         <activity
-                android:name="com.google.android.mvp.ui.activity.LivePlayActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
-        <activity
-                android:name="com.google.android.mvp.ui.activity.AllSearchActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
-        <activity
-                android:name="com.google.android.mvp.ui.activity.MyHistoryActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
-        <activity
-                android:name="com.google.android.mvp.ui.activity.MyLikeMovieActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait" />
-        <activity
-                android:name="com.google.android.mvp.ui.activity.CardPayActivity"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="portrait"></activity>
+            android:name="com.google.android.mvp.ui.activity.LivePlayActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.google.android.mvp.ui.activity.AllSearchActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name="com.google.android.mvp.ui.activity.MyHistoryActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name="com.google.android.mvp.ui.activity.MyLikeMovieActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name="com.google.android.mvp.ui.activity.CardPayActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            ></activity>
     </application>
 
 </manifest>

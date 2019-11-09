@@ -8,21 +8,29 @@
     <color name="tran_60_black">#60000000</color>
 
     <color name="white">#FFFFFF</color>
-    <color name="main_color">#FC4288</color>
+    <color name="main_color">#ffffff</color>
+    <color name="new_main_color">#ffffff</color>
     <color name="balck">#000000</color>
     <color name="font_main">#DCB482</color>
 
 
     <color name="font_333333">#333333</color>
+    <color name="font_818ba1">#818BA1</color>
+    <color name="font_50596b">#50596B</color>
+    <color name="font_78788E">#78788E</color>
     <color name="font_666666">#666666</color>
     <color name="font_fc488c">#FC488C</color>
     <color name="font_999999">#999999</color>
     <color name="font_cccccc">#CCCCCC</color>
     <color name="font_262626">#262626</color>
+    <color name="font_262638">#262638</color>
+    <color name="font_535365">#535365</color>
     <color name="font_FB478B">#FB478B</color>
     <color name="font_B4854D">#B4854D</color>
     <color name="font_FEFEFE">#FEFEFE</color>
 
+    <color name="bg_main">#1E1E2D</color>
+    <color name="bg_0e0e1a">#0E0E1A</color>
     <color name="bg_search">#282828</color>
     <color name="bg_f0eff5">#F0EFF5</color>
     <color name="bg_F9F9F9">#F9F9F9</color>
@@ -31,6 +39,7 @@
     <color name="bg_F65758">#F65758</color>
 
     <color name="line_eeeeee">#EEEEEE</color>
+    <color name="line_3C3C5C">#3C3C5C</color>
     <color name="line_dddddd">#DDDDDD</color>
     <color name="line_EC0138">#EC0138</color>
     <color name="line_BBBBBB">#BBBBBB</color>

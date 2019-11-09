@@ -42,7 +42,7 @@ public class RechargeMoneyAdapter extends BaseQuickAdapter<MoneyShow, BaseViewHo
                 .setText(R.id.vip_old_money, !TextUtils.isEmpty(item.getOrigmoney()) ? item.getOrigmoney() : "")
                 .setText(R.id.vip_details, !TextUtils.isEmpty(item.getTip()) ? item.getTip() : "")
         ;
-        helper.getView(R.id.vip_bg).setBackground(item.isChoose()? ContextCompat.getDrawable(activity,R.drawable.radius_fff1f6_fc4288_6):ContextCompat.getDrawable(activity,R.drawable.radius_ffffff_dddddd_6));
+        helper.getView(R.id.vip_bg).setBackground(item.isChoose()? ContextCompat.getDrawable(activity,R.drawable.radius_1e1e2d_7878e_6):ContextCompat.getDrawable(activity,R.drawable.radius_1e1e2d_6));
         helper.addOnClickListener(R.id.vip_open);
 
     }

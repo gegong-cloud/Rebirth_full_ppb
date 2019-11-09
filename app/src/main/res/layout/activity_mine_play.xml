@@ -102,6 +102,7 @@
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/bg_0e0e1a"
         android:layout_below="@+id/gsy_player">
 
         <LinearLayout
@@ -115,6 +116,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
+                android:background="@color/bg_main"
                 android:visibility="visible">
 
                 <RelativeLayout
@@ -135,7 +137,7 @@
                         android:maxLines="1"
                         android:ellipsize="end"
                         android:lineSpacingExtra="2dp"
-                        android:textColor="@color/font_333333"
+                        android:textColor="@color/white"
                         android:textSize="@dimen/sp_14" />
 
 
@@ -156,13 +158,13 @@
                             android:layout_height="22dp"
                             android:scaleType="centerInside"
                             android:layout_centerVertical="true"
-                            android:src="@drawable/favor_nopress"
+                            android:src="@drawable/paly_favor_nopress"
                             />
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textSize="@dimen/sp_14"
-                            android:textColor="@color/font_333333"
+                            android:textColor="@color/font_50596b"
                             android:layout_centerVertical="true"
                             android:layout_marginLeft="2dp"
                             android:text="收藏"
@@ -186,7 +188,7 @@
                         android:gravity="center|left"
                         android:maxLines="1"
                         android:lineSpacingExtra="2dp"
-                        android:textColor="@color/font_333333"
+                        android:textColor="@color/font_50596b"
                         android:textSize="@dimen/sp_14" />
 
                     <TextView
@@ -199,11 +201,11 @@
                         android:layout_marginTop="-2dp"
                         android:layout_marginRight="12dp"
                         android:drawableRight="@drawable/all_expand_img"
-                        android:drawablePadding="2dp"
+                        android:drawablePadding="4dp"
                         android:gravity="center|left"
                         android:lineSpacingExtra="2dp"
                         android:text="简介"
-                        android:textColor="@color/radius_fc4288"
+                        android:textColor="@color/font_818ba1"
                         android:textSize="@dimen/sp_14" />
                 </RelativeLayout>
 
@@ -218,7 +220,7 @@
                     android:layout_marginTop="6dp"
                     android:gravity="center|left"
                     android:lineSpacingExtra="2dp"
-                    android:textColor="@color/font_333333"
+                    android:textColor="@color/font_818ba1"
                     android:textSize="@dimen/sp_14" />
 
                 <View
@@ -245,7 +247,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="22dp"
                 android:text="猜你喜欢"
-                android:textColor="@color/font_333333"
+                android:textColor="@color/white"
                 android:textSize="@dimen/sp_16"
                 android:textStyle="bold" />
 

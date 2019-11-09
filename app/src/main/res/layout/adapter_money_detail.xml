@@ -11,7 +11,7 @@
         android:layout_toLeftOf="@+id/money_number"
         android:singleLine="true"
         android:textSize="@dimen/sp_16"
-        android:textColor="@color/font_333333"
+        android:textColor="@color/font_78788E"
         android:gravity="center|left"
         android:text="提现"
         android:layout_marginLeft="14dp"
@@ -49,5 +49,5 @@
         android:layout_height="1dp"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="15dp"
-        android:background="@color/line_dddddd" />
+        android:background="@color/line_3C3C5C" />
 </RelativeLayout>

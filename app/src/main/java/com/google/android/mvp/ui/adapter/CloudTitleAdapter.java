@@ -37,7 +37,7 @@ public class CloudTitleAdapter extends BaseQuickAdapter<LabelEntity, BaseViewHol
             mAppComponent = ArmsUtils.obtainAppComponentFromContext(mContext);
         }
         TextView textView = helper.getView(R.id.cloud_title);
-        textView.setTextColor(item.isSelect()?ContextCompat.getColor(MyApplication.getsInstance(),R.color.font_FB478B):ContextCompat.getColor(MyApplication.getsInstance(),R.color.font_999999));
+        textView.setTextColor(item.isSelect()?ContextCompat.getColor(MyApplication.getsInstance(),R.color.white):ContextCompat.getColor(MyApplication.getsInstance(),R.color.font_78788E));
         textView.setTextSize(TypedValue.COMPLEX_UNIT_SP ,item.isSelect()?20:16);
         helper.setText(R.id.cloud_title, !TextUtils.isEmpty(item.getName()) ? item.getName() : "");
     }

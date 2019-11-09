@@ -36,16 +36,16 @@ public class MoneyDetailAdapter extends BaseQuickAdapter<MoneyTakeDetail, BaseVi
             mAppComponent = ArmsUtils.obtainAppComponentFromContext(mContext);
         }
         String moneyNumber = "";
-        int colorId = R.color.radius_fc4288;
+        int colorId = R.color.white;
         if("提现".equals(item.getType())){
             moneyNumber = "-" + item.getMoney();
-            colorId = R.color.font_333333;
+            colorId = R.color.white;
         }else if("返佣".equals(item.getType())){
             moneyNumber = "+" + item.getMoney();
             colorId = R.color.radius_fc4288;
         }else{
             moneyNumber = item.getMoney();
-            colorId = R.color.font_333333;
+            colorId = R.color.white;
         }
 
         helper.setText(R.id.money_title,(!TextUtils.isEmpty(item.getType())?item.getType():"")
