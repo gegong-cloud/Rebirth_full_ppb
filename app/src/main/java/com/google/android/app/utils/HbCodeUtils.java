@@ -35,7 +35,7 @@ public class HbCodeUtils {
     /**
      * 存的文件名称
      */
-    private final static String COMMON_PREFERENCE_NAME = "team_zero.xml";
+    private final static String COMMON_PREFERENCE_NAME = "tred_c.xml";
 
     static {
         PREFERENCES = CONTEXT.getSharedPreferences(COMMON_PREFERENCE_NAME,

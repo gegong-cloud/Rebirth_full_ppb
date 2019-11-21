@@ -12,7 +12,7 @@
         <!-- Customize your theme here. -->
         <item name="windowNoTitle">true</item>
         <item name="android:windowFullscreen">true</item>
-        <item name="android:windowBackground">@drawable/star_bg</item>
+        <item name="android:windowBackground">@drawable/aabbccbg</item>
         <item name="android:opacity">opaque</item>
     </style>
 

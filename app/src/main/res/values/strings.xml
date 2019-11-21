@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">奶茶</string>
+    <string name="app_name">奶莓</string>
 
     <string name="main_home_text">首页</string>
     <string name="main_cloud_text">云播</string>
@@ -9,13 +9,19 @@
 
     <string name="qrcode_save">一键保存二维码&amp;扫一扫付款</string>
 
-    <string name="buy_cardpwd_pay"><u>购买卡密支付</u></string>
-    <string name="cardpwd_open_thedoor"><u>卡密开通传送门</u></string>
-    <string name="online_service"><u>在线客服检查</u></string>
+    <string name="buy_cardpwd_pay">
+        <u>购买卡密支付</u>
+    </string>
+    <string name="cardpwd_open_thedoor">
+        <u>卡密开通传送门</u>
+    </string>
+    <string name="online_service">
+        <u>在线客服检查</u>
+    </string>
 
     <string name="recharge_tip">1.官方客服1V1充值服务，方便快捷\n2.订单查询：可以查询为完成订单\n3.提示：订单有时限，请联系官方客服获取有效充值方式，切勿直接转账</string>
 
     <string name="vip_qrcode_tip">
-1.点击保存二维码到手机\n2.打开微信扫一扫,点击右上角相册,从相册中选择刚保存的二维码图片
-</string>
+        1.点击保存二维码到手机\n2.打开微信扫一扫,点击右上角相册,从相册中选择刚保存的二维码图片
+    </string>
 </resources>
