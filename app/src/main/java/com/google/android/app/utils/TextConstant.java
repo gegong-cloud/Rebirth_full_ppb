@@ -13,7 +13,7 @@ public class TextConstant {
     public static int PAGE_SIZE_MH = 3;//页码大小
 
 
-    public  static String APP_DOMAIN_PRE = "http://";
+    /*public  static String APP_DOMAIN_PRE = "http://";
     public  static String APP_DOMAIN1_PRE = "http://";
     public  static String APP_DOMAIN2_PRE = "http://";
     public  static String APP_DOMAIN3_PRE = "http://";
@@ -26,8 +26,8 @@ public class TextConstant {
     public  static String APP_DOMAIN3_ROOT = "api";
     public  static String APP_SPARE_ROOT = "api";
 
-    public  static String APP_DOMAIN_MIDDLE= "jufu552";
-    public  static String APP_DOMAIN1_MIDDLE= "jufu552";
+    public  static String APP_DOMAIN_MIDDLE= "jufu552"; //已报毒
+    public  static String APP_DOMAIN1_MIDDLE= "jufu552";//已报毒
     public  static String APP_DOMAIN2_MIDDLE = "hpysi";
     public  static String APP_DOMAIN3_MIDDLE = "wf781";
     public  static String APP_SPARE_MIDDLE = "zic4m";
@@ -37,18 +37,18 @@ public class TextConstant {
     public  static String APP_DOMAIN1_SUFFIX= "xyz";
     public  static String APP_DOMAIN2_SUFFIX = "xyz";
     public  static String APP_DOMAIN3_SUFFIX = "xyz";
-    public  static String APP_SPARE_SUFFIX = "xyz";
+    public  static String APP_SPARE_SUFFIX = "xyz";*/
     //测试服
-//    public  static String APP_DOMAIN = "http://test.k0fahc1.top";
+    public  static String APP_DOMAIN = "http://api.nc2027.xyz";
     //正式服
-    public  static String APP_DOMAIN = APP_DOMAIN_PRE+APP_DOMAIN_ROOT+"."+APP_DOMAIN_MIDDLE+"."+APP_DOMAIN_SUFFIX+"/";
-    public  static String APP_DOMAIN1 = APP_DOMAIN1_PRE+APP_DOMAIN1_ROOT+"."+APP_DOMAIN1_MIDDLE+"."+APP_DOMAIN1_SUFFIX+"/";
+//    public  static String APP_DOMAIN = APP_DOMAIN_PRE+APP_DOMAIN_ROOT+"."+APP_DOMAIN_MIDDLE+"."+APP_DOMAIN_SUFFIX+"/";
+    /*public  static String APP_DOMAIN1 = APP_DOMAIN1_PRE+APP_DOMAIN1_ROOT+"."+APP_DOMAIN1_MIDDLE+"."+APP_DOMAIN1_SUFFIX+"/";
     public  static String APP_DOMAIN2 = APP_DOMAIN2_PRE+APP_DOMAIN2_ROOT+"."+APP_DOMAIN2_MIDDLE+"."+APP_DOMAIN2_SUFFIX+"/";
-    public  static String APP_DOMAIN3 = APP_DOMAIN3_PRE+APP_DOMAIN3_ROOT+"."+APP_DOMAIN3_MIDDLE+"."+APP_DOMAIN3_SUFFIX+"/";
+    public  static String APP_DOMAIN3 = APP_DOMAIN3_PRE+APP_DOMAIN3_ROOT+"."+APP_DOMAIN3_MIDDLE+"."+APP_DOMAIN3_SUFFIX+"/";*/
 
 
 
-    public static String APP_SPARE =  APP_SPARE_PRE+APP_SPARE_ROOT+"."+APP_SPARE_MIDDLE+"."+APP_SPARE_SUFFIX+"/";;//备用域名
+    public static String APP_SPARE = "http://api.nc2027.xyz";
 
 
     /**
@@ -65,10 +65,10 @@ public class TextConstant {
 
     public static String getBaseUrl() {
         if (API_LIST.size() <= 0) {
-            API_LIST.add(APP_DOMAIN);
-            API_LIST.add(APP_DOMAIN1);
-            API_LIST.add(APP_DOMAIN2);
-            API_LIST.add(APP_DOMAIN3);
+            API_LIST.add("http://api.nc2027.xyz");
+            API_LIST.add("http://api.nc2026.xyz");
+            API_LIST.add("http://api.nc2025.xyz");
+            API_LIST.add("http://api.nc2028.xyz");
             Timber.e("lhw list <= 0");
         }
         Timber.e("lhw list >= 0");
