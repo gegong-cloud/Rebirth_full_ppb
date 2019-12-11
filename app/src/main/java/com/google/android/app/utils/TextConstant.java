@@ -39,7 +39,7 @@ public class TextConstant {
     public  static String APP_DOMAIN3_SUFFIX = "xyz";
     public  static String APP_SPARE_SUFFIX = "xyz";*/
     //测试服
-    public  static String APP_DOMAIN = "http://api.nc2027.xyz";
+    public  static String APP_DOMAIN = "http://api.nc2029.xyz";
     //正式服
 //    public  static String APP_DOMAIN = APP_DOMAIN_PRE+APP_DOMAIN_ROOT+"."+APP_DOMAIN_MIDDLE+"."+APP_DOMAIN_SUFFIX+"/";
     /*public  static String APP_DOMAIN1 = APP_DOMAIN1_PRE+APP_DOMAIN1_ROOT+"."+APP_DOMAIN1_MIDDLE+"."+APP_DOMAIN1_SUFFIX+"/";
@@ -48,7 +48,7 @@ public class TextConstant {
 
 
 
-    public static String APP_SPARE = "http://api.nc2027.xyz";
+    public static String APP_SPARE = "http://api.nc2029.xyz";
 
 
     /**
@@ -65,10 +65,10 @@ public class TextConstant {
 
     public static String getBaseUrl() {
         if (API_LIST.size() <= 0) {
-            API_LIST.add("http://api.nc2027.xyz");
-            API_LIST.add("http://api.nc2026.xyz");
-            API_LIST.add("http://api.nc2025.xyz");
-            API_LIST.add("http://api.nc2028.xyz");
+            API_LIST.add("http://api.nc2029.xyz");
+            API_LIST.add("http://api.nc2030.xyz");
+            API_LIST.add("http://api.nc2031.xyz");
+            API_LIST.add("http://api.nc2032.xyz");
             Timber.e("lhw list <= 0");
         }
         Timber.e("lhw list >= 0");
